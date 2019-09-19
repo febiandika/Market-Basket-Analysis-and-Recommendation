@@ -22,3 +22,18 @@ Selanjutnya dilakukan sebuah implementasi dari algoritma apriori menggunakan pyt
 ### Daftar File
 1. data/form.csv : input file
 2. code/Apriori.ipynb : membuat/menguji algoritma apriori
+<br>
+
+## 2. Rekomendasi Film menggunakan Collaborative Filtering, Content-Based Filtering, dan Hybrid Filtering
+<br>
+## 2.1 Rekomendasi Film menggunakan Collaborative Filtering
+<br>
+Collaborative Filtering adalah sebuah proses penyaringan informasi dengan mengumpulkan penilaian (rating) dari seseorang (atau bisa disebut "word of mouth"). Masalah utama dari collaborative filtering adalah memprediksi seberapa baik seseorang akan menyukai sebuah item (dalam kasus ini film) yang belum pernah ia beri penilaian berdasarkan kumpulan preferensi/penilaian yang telah dilakukan sebelumnya oleh komunitas/kumpulan orang.
+<br>
+Selanjutnya dilakukan sebuah implementasi dari algoritma collaborative filtering menggunakan python untuk menemukan daftar rekomendasi film kepada seseorang berdasarkan penilaian yang telah dilakukan oleh orang lain.
+<br>
+
+### Daftar File
+1. data/Film_Rating.csv : input file
+2. code/Collaborative Filtering.ipynb : membuat/menguji algoritma Collaborative Filtering
+<br>
