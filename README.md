@@ -5,6 +5,8 @@ Bagian ini terdiri dari:
 
 ## 1. Market Basket Analysis menggunakan algoritma Apriori
 <br>
+Market Basket Analysis adalah sebuah proses untuk menemukan frekuensi dari kumpulan-kumpulan/himpunan item pada sebuah database transaksi yang besar. Hal ini dilakukan untuk mengetahui asosiasi dan korelasi diantara para item.
+<br>
 Apriori adalah salah satu algoritma yang digunakan untuk market basket analysis. Apriori didesain untuk beroperasi pada database yang mengandung transaksi. Terminologi dari algoritma apriori antara lain: 
 <br>
  - Support : Indikator yang menyatakan seberapa sering sebuah item muncul dalam dataset
