@@ -69,5 +69,19 @@ Selanjutnya dilakukan sebuah implementasi dari algoritma hybrid filtering menggu
 ### Daftar File
 1. dataset/film.csv : input file
 2. dataset/Film_Rating.csv : input file
-2. code/Hybrid.ipynb : membuat/menguji algoritma Hybrid Filtering
+3. code/Hybrid.ipynb : membuat/menguji algoritma Hybrid Filtering
+<br>
+
+## 3. A/B Testing
+<br>
+A/B Testing adalah sebuah uji untuk melihat jika terdapat perbedaan signifikan secara statistika dari dua buah versi. A/B Testing digunakan dalam dunia bisnis untuk mengetahui kebiasaan pelanggan berdasar pendekatan data, bukan dengan intuisi.
+<br>
+<br>
+Selanjutnya dilakukan sebuah implementasi dari A/B Testing menggunakan python untuk menemukan apakah terdapat perbedaan yang signifikan dari banyaknya jumlah user yang login dan checkout pada website perusahaan diantara dua buah desain website, yaitu desain A dan desain B.
+<br>
+
+
+### Daftar File
+1. dataset/Datawebsite.csv : input file
+2. code/AB Testing.ipynb : membuat/menguji AB Testing
 <br>
