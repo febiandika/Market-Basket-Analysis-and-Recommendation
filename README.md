@@ -1,1 +1,1 @@
-# Market-Basket-Analysis-and-Movies-Recommendation
+# Market Basket Analysis and Movies Recommendation
