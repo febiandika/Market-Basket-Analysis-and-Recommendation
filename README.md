@@ -12,7 +12,9 @@ Apriori adalah salah satu algoritma yang digunakan untuk market basket analysis.
 <br> 
  - Lift : Nilai rasio dari nilai support yang diamati dengan ekpektasinya jika X dan Y saling bebas.
 <br>
+<br>
 Selanjutnya dilakukan sebuah implementasi dari algoritma apriori menggunakan python untuk menemukan asosiasi dari barang/item yang diberikan.
+<br>
 ### Daftar File
 1. data/form.csv : input file
 2. code/Apriori.ipynb : membuat/menguji algoritma apriori
