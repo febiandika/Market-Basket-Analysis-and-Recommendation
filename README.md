@@ -2,6 +2,7 @@
 
 Bagian ini terdiri dari:
 <br>
+
 ## 1. Market Basket Analysis menggunakan algoritma Apriori
 <br>
 Apriori adalah salah satu algoritma yang digunakan untuk market basket analysis. Apriori didesain untuk beroperasi pada database yang mengandung transaksi. Terminologi dari algoritma apriori antara lain: 
@@ -15,6 +16,7 @@ Apriori adalah salah satu algoritma yang digunakan untuk market basket analysis.
 <br>
 Selanjutnya dilakukan sebuah implementasi dari algoritma apriori menggunakan python untuk menemukan asosiasi dari barang/item yang diberikan.
 <br>
+
 ### Daftar File
 1. data/form.csv : input file
 2. code/Apriori.ipynb : membuat/menguji algoritma apriori
