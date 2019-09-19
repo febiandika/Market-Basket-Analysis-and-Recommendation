@@ -47,6 +47,7 @@ Content-Based Filtering adalah sebuah proses penyaringan informasi dengan menggu
 <br>
 Selanjutnya dilakukan sebuah implementasi dari algoritma content-based filtering menggunakan python untuk menemukan daftar rekomendasi film lain yang memiliki kemiripan dengan suatu film berdasarkan Genre, Director, dan Actors film tersebut.
 <br>
+
 ### Daftar File
 1. dataset/film.csv : input file
 2. code/Content Based.ipynb : membuat/menguji algoritma Content-Based Filtering
@@ -64,6 +65,7 @@ Terdapat dua sistem yang disarankan dalam hybrid filtering, yaitu:
 <br>
 Selanjutnya dilakukan sebuah implementasi dari algoritma hybrid filtering menggunakan python untuk menemukan daftar rekomendasi film lain yang belum pernah ditonton oleh seorang user yang memiliki kemiripan dengan suatu film yang telah ditonton berdasarkan Genre, Director, dan Actors film tersebut dan memiliki penilaian rating yang tinggi dari user lain.
 <br>
+
 ### Daftar File
 1. dataset/film.csv : input file
 2. dataset/Film_Rating.csv : input file
