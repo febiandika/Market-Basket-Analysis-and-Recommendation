@@ -20,20 +20,52 @@ Selanjutnya dilakukan sebuah implementasi dari algoritma apriori menggunakan pyt
 <br>
 
 ### Daftar File
-1. data/form.csv : input file
+1. dataset/form.csv : input file
 2. code/Apriori.ipynb : membuat/menguji algoritma apriori
 <br>
 
 ## 2. Rekomendasi Film menggunakan Collaborative Filtering, Content-Based Filtering, dan Hybrid Filtering
 <br>
+
 ## 2.1 Rekomendasi Film menggunakan Collaborative Filtering
 <br>
 Collaborative Filtering adalah sebuah proses penyaringan informasi dengan mengumpulkan penilaian (rating) dari seseorang (atau bisa disebut "word of mouth"). Masalah utama dari collaborative filtering adalah memprediksi seberapa baik seseorang akan menyukai sebuah item (dalam kasus ini film) yang belum pernah ia beri penilaian berdasarkan kumpulan preferensi/penilaian yang telah dilakukan sebelumnya oleh komunitas/kumpulan orang.
+<br>
 <br>
 Selanjutnya dilakukan sebuah implementasi dari algoritma collaborative filtering menggunakan python untuk menemukan daftar rekomendasi film kepada seseorang berdasarkan penilaian yang telah dilakukan oleh orang lain.
 <br>
 
 ### Daftar File
-1. data/Film_Rating.csv : input file
+1. dataset/Film_Rating.csv : input file
 2. code/Collaborative Filtering.ipynb : membuat/menguji algoritma Collaborative Filtering
+<br>
+
+## 2.2 Rekomendasi Film menggunakan Content-Based Filtering
+<br>
+Content-Based Filtering adalah sebuah proses penyaringan informasi dengan menggunakan latar belakang/deskripsi dari target user (dalam kasus ini film). Item yang digunakan dideskripsikan sebagai variabel-variabel, misal : Aktor, Sutradara, Kategori/Genre, Deskripsi Film.
+<br>
+<br>
+Selanjutnya dilakukan sebuah implementasi dari algoritma content-based filtering menggunakan python untuk menemukan daftar rekomendasi film lain yang memiliki kemiripan dengan suatu film berdasarkan Genre, Director, dan Actors film tersebut.
+<br>
+### Daftar File
+1. dataset/film.csv : input file
+2. code/Content Based.ipynb : membuat/menguji algoritma Content-Based Filtering
+<br>
+
+## 2.3 Rekomendasi Film menggunakan Hybrid Filtering
+<br>
+Hybrid Filtering adalah sebuah proses penyaringan informasi dengan menggabungkan collaborative filtering dan content-based filtering.
+Terdapat dua sistem yang disarankan dalam hybrid filtering, yaitu:
+<br>
+-Content-Based -> Collaborative
+<br>
+-Collaborative -> Content-Based
+<br>
+<br>
+Selanjutnya dilakukan sebuah implementasi dari algoritma hybrid filtering menggunakan python untuk menemukan daftar rekomendasi film lain yang belum pernah ditonton oleh seorang user yang memiliki kemiripan dengan suatu film yang telah ditonton berdasarkan Genre, Director, dan Actors film tersebut dan memiliki penilaian rating yang tinggi dari user lain.
+<br>
+### Daftar File
+1. dataset/film.csv : input file
+2. dataset/Film_Rating.csv : input file
+2. code/Hybrid.ipynb : membuat/menguji algoritma Hybrid Filtering
 <br>
