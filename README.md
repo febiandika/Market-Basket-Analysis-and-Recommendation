@@ -58,9 +58,9 @@ Selanjutnya dilakukan sebuah implementasi dari algoritma content-based filtering
 Hybrid Filtering adalah sebuah proses penyaringan informasi dengan menggabungkan collaborative filtering dan content-based filtering.
 Terdapat dua sistem yang disarankan dalam hybrid filtering, yaitu:
 <br>
--Content-Based -> Collaborative
+- Content-Based -> Collaborative
 <br>
--Collaborative -> Content-Based
+- Collaborative -> Content-Based
 <br>
 <br>
 Selanjutnya dilakukan sebuah implementasi dari algoritma hybrid filtering menggunakan python untuk menemukan daftar rekomendasi film lain yang belum pernah ditonton oleh seorang user yang memiliki kemiripan dengan suatu film yang telah ditonton berdasarkan Genre, Director, dan Actors film tersebut dan memiliki penilaian rating yang tinggi dari user lain.
@@ -74,7 +74,7 @@ Selanjutnya dilakukan sebuah implementasi dari algoritma hybrid filtering menggu
 
 ## 3. A/B Testing
 <br>
-A/B Testing adalah sebuah uji untuk melihat jika terdapat perbedaan signifikan secara statistika dari dua buah versi. A/B Testing digunakan dalam dunia bisnis untuk mengetahui kebiasaan pelanggan berdasar pendekatan data, bukan dengan intuisi.
+A/B Testing adalah sebuah uji untuk melihat jika terdapat perbedaan signifikan secara statistika dari dua buah versi (biasanya salah satu versi dijadikan sebagai variabel control dan versi lainnya dijadikan sebagai variabel treatment). A/B Testing digunakan dalam dunia bisnis untuk mengetahui kebiasaan pelanggan berdasar pendekatan data, bukan dengan intuisi.
 <br>
 <br>
 Selanjutnya dilakukan sebuah implementasi dari A/B Testing menggunakan python untuk menemukan apakah terdapat perbedaan yang signifikan dari banyaknya jumlah user yang login dan checkout pada website perusahaan diantara dua buah desain website, yaitu desain A dan desain B.
